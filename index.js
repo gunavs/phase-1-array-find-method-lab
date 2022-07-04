@@ -2,7 +2,7 @@
 
 function superbowlWin (somearray) {
          
-const result = somearray.find(didtheywin);
+let result = somearray.find(didtheywin);
 console.log(result);
 if (result) {
     return result["year"];
